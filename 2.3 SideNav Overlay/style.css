@@ -1,0 +1,42 @@
+.sidebar {
+    background-color: black;
+    width: 0;
+    height: 100vh;
+    position: fixed;
+    padding-top: 60px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a {
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+}
+
+.main .openbtn {
+    font-size: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.sidebar {
+    background-color: black;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+}
+
+.sidebar a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.main {
+    margin-left: 200px;
+    padding: 16px;
+}

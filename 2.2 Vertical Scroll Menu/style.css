@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.sidebar {
+    background-color: black;
+    width: 200px;
+    height: 450px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.sidebar a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+.main {
+    margin-left: 250px;
+}
